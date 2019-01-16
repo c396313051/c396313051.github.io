@@ -1,0 +1,233 @@
+<style scoped>
+h1{
+  color:orange;
+}
+*
+{
+  padding:0px;
+  margin:0px;
+  font-family:"Copperplate Gothic";
+}
+#app{
+  position: absolute;
+  width:100%;
+  background-color: white;
+  height:100%;
+}
+html{
+  width:100%;
+  height:100%;
+  margin: 0;
+  padding: 0;
+}
+body{
+  width:100%;
+  height:100%;
+  margin: 0;
+  padding: 0;
+}
+/*c1*/
+.columnAll{
+  height:100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+ .column1{
+ 	
+ 	height:100%;
+ 	width:20%;
+ 	border-right: 1px solid #c0c0c0;
+ 	margin: 0;
+ 	padding: 0;
+ 	transition-duration: 0.5s;
+  display: flex;
+  float: left;
+ }
+ .column1:hover{
+ 	background-color:#fda500;
+ }
+ .column1:hover 
+ #logo1{
+ 	background-image: url("./image/logo_bh.png")
+ }
+
+ #logo1{
+ 	position: relative;
+ 	margin-top: 0.5rem;
+ 	margin-left: 0.4rem;
+ 	height:3.5rem;
+ 	width: 3.5rem;
+ 	background-size: 100% 100%;
+ 	background-image: url("./image/logo.png")
+ }
+/*c2*/
+.column2{
+  /*position: absolute;*/
+  height:100%;
+  width:20%;
+  border-right: 1px solid #c0c0c0;
+  margin: 0;
+  padding: 0;
+  transition-duration: 0.5s;
+  display: flex;
+  float: left;
+ }
+ .column2:hover{
+  background-color:#fda500;
+ }
+ .column2:hover 
+ #text1{
+  background-image: url("./image/title_bh.png")
+ }
+
+ #text1{
+  position: absolute;
+  margin-top: 10rem;
+  margin-left: -2.5rem;
+  height:21rem;
+  width: 27rem;
+  background-size: 100% 100%;
+  background-image: url("./image/title.png")
+ }
+/*c3*/
+.column3{
+  /*position: absolute;*/
+  height:100%;
+  width:20%;
+  border-right: 1px solid #c0c0c0;
+  margin: 0;
+  padding: 0;
+  transition-duration: 1.5s;
+  display: flex;
+  float: left;
+ }
+
+.home{
+  /*position: absolute;*/
+  height:100%;
+  width:100%;
+  border-right: 1px solid #c0c0c0;
+  margin: 0;
+  padding: 0;
+  transition-duration: 1.5s;
+  display: flex;
+  float: left;
+ }
+
+ .column3:hover{
+  background-color:#fda500;
+ }
+ #line3
+{
+  border:solid 5px black;
+  
+  /*display:none;*/
+}
+#btn3{
+  width:100%;
+  height:3rem;
+}
+p
+{
+  position:relative;
+  margin-top:0.9rem;
+  cursor:pointer;
+}
+/*c4*/
+.column4{
+  /*position: absolute;*/
+  height:100%;
+  width:20%;
+  border-right: 1px solid #c0c0c0;
+  margin: 0;
+  padding: 0;
+  transition-duration: 1.5s;
+  display: flex;
+  float: left;
+ }
+ .column4:hover{
+  background-color:#fda500;
+ }
+ #line4
+{
+  border:solid 5px black;
+}
+.column4:hover 
+ #text2{
+  background-image: url("./image/text2_bh.png")
+ }
+#btn4{
+  width:100%;
+  height:3rem;
+}
+p
+{
+  position:relative;
+  margin-top:0.9rem;
+  cursor:pointer;
+}
+
+#text2{
+  position: absolute;
+  margin-top: 16rem;
+  margin-left: -1rem;
+  height:16rem;
+  width: 17.5rem;
+  background-size: 100% 100%;
+  background-image: url("./image/text2.png")
+ }
+ .info{
+  height:100%;
+  width:100%;
+  border-right: 1px solid #c0c0c0;
+  margin: 0;
+  padding: 0;
+  transition-duration: 1.5s;
+  display: flex;
+  float: left;
+ }
+/*c5*/
+.column5{
+  /*position: absolute;*/
+  height:100%;
+  width:19.5%;
+  border-right: 1px solid #c0c0c0;
+  margin: 0;
+  padding: 0;
+  transition-duration: 1.5s;
+  display: flex;
+  float: left;
+ }
+ .column5:hover{
+  background-color:#fda500;
+ }
+ #line5
+{
+  border:solid 5px black;
+  
+  /*display:none;*/
+}
+#btn5{
+  width:100%;
+  height:3rem;
+}
+p
+{
+  position:relative;
+  margin-top:0.9rem;
+  cursor:pointer;
+}
+.opt{
+  /*position: absolute;*/
+  height:100%;
+  width:100%;
+  border-right: 1px solid #c0c0c0;
+  margin: 0;
+  padding: 0;
+  transition-duration: 1.5s;
+  display: flex;
+  float: left;
+ }
+
+</style>
