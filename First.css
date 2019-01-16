@@ -49,7 +49,7 @@ body{
  }
  .column1:hover 
  #logo1{
- 	background-image: url("./image/logo_bh.png")
+ 	background-image: url("logo_bh.png")
  }
 
  #logo1{
@@ -59,7 +59,7 @@ body{
  	height:3.5rem;
  	width: 3.5rem;
  	background-size: 100% 100%;
- 	background-image: url("./image/logo.png")
+ 	background-image: url("logo.png")
  }
 /*c2*/
 .column2{
@@ -78,7 +78,7 @@ body{
  }
  .column2:hover 
  #text1{
-  background-image: url("./image/title_bh.png")
+  background-image: url("title_bh.png")
  }
 
  #text1{
@@ -88,7 +88,7 @@ body{
   height:21rem;
   width: 27rem;
   background-size: 100% 100%;
-  background-image: url("./image/title.png")
+  background-image: url("title.png")
  }
 /*c3*/
 .column3{
@@ -155,7 +155,7 @@ p
 }
 .column4:hover 
  #text2{
-  background-image: url("./image/text2_bh.png")
+  background-image: url("text2_bh.png")
  }
 #btn4{
   width:100%;
@@ -175,7 +175,7 @@ p
   height:16rem;
   width: 17.5rem;
   background-size: 100% 100%;
-  background-image: url("./image/text2.png")
+  background-image: url("text2.png")
  }
  .info{
   height:100%;
