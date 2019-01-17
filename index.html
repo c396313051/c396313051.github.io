@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <title>LineStyle</title>
-  <link rel="stylesheet" type="text/css" href="First.css"/>
+  <link rel="stylesheet" type="text/css" href="First.css" />
   <script src="https://unpkg.com/vue"></script>
 </head>
+
 <body>
   <div id="app">
-    <div class="columnAll" >
-      <div class="column1">  
-       <div id="logo1"></div> 
-     </div>
-     <div class="column2">  
-      <div id="text1"></div>
-    </div>
-    <div v-bind:class="[isHome?homeClass:'',column3]">
-      <div id="btn3" @mouseover="lineshow3=true" @mouseout="lineshow3=false" @click="isHome=!isHome;isInfo=false;isOpt=false;">
-        <div id="line3" v-show="lineshow3"></div>
-        <p>Home</p>
-      </div>   
-    </div>
-    <div v-bind:class="[isInfo?infoClass:'',column4]">
-      <div id="btn4" @mouseover="lineshow4=true" @mouseout="lineshow4=false" @click="isInfo=!isInfo;isHome=false;isOpt=false">
-        <div id="line4" v-show="lineshow4"></div>
-        <p>Information</p>
+    <div class="columnAll">
+      <div class="column1">
+        <div id="logo1"></div>
       </div>
-      <div id="text2"></div>  
-    </div>
-
-    <div v-bind:class="[isOpt?optClass:'',column5]">
-      <div id="btn5" @mouseover="lineshow5=true" @mouseout="lineshow5=false" @click="isOpt=!isOpt;isHome=false;isInfo=false">
-        <div id="line5" v-show="lineshow5"></div>
-        <p>Option</p>
+      <div class="column2">
+        <div id="text1"></div>
       </div>
+      <div v-bind:class="[isHome?homeClass:'',column3]">
+        <div id="btn3" @mouseover="lineshow3=true" @mouseout="lineshow3=false" @click="isHome=!isHome;isInfo=false;isOpt=false;">
+          <div id="line3" v-show="lineshow3"></div>
+          <p>Home</p>
+        </div>
+      </div>
+      <div v-bind:class="[isInfo?infoClass:'',column4]">
+        <div id="btn4" @mouseover="lineshow4=true" @mouseout="lineshow4=false" @click="isInfo=!isInfo;isHome=false;isOpt=false">
+          <div id="line4" v-show="lineshow4"></div>
+          <p>Information</p>
+        </div>
+        <div id="text2"></div>
+      </div>
+
+      <div v-bind:class="[isOpt?optClass:'',column5]">
+        <div id="btn5" @mouseover="lineshow5=true" @mouseout="lineshow5=false" @click="isOpt=!isOpt;isHome=false;isInfo=false">
+          <div id="line5" v-show="lineshow5"></div>
+          <p>Option</p>
+        </div>
+      </div>
+
+
+
     </div>
-
-
-
   </div>
-</div>
-<script type="text/javascript" src="First.js"></script>
+  <script type="text/javascript" src="First.js"></script>
 </body>
 
 

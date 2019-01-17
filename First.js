@@ -1,7 +1,6 @@
 new Vue({
 	el:'#app',
 	data:{
-
          lineshow3:false,
          lineshow4:false,
          lineshow5:false,
@@ -15,5 +14,5 @@ new Vue({
          isInfo:false,
          isOpt:false,
     }
-    
+
 });
