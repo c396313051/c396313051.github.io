@@ -19,7 +19,7 @@
       </div>
       <div v-bind:class="[isHome?homeClass:'',column3]">
         <div id="btn3" @mouseover="lineshow3=true" @mouseout="lineshow3=false" @click="isHome=!isHome;isInfo=false;isOpt=false;">
-          <div id="line3" v-show="lineshow3"></div>
+          <div id="line3" v-show="lineshow3" style="transition:2s;"></div>
           <p>Home</p>
         </div>
       </div>

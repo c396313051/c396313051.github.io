@@ -1,4 +1,4 @@
-<style scoped>
+
 h1{
   color:orange;
 }
@@ -59,7 +59,8 @@ body{
  	height:3.5rem;
  	width: 3.5rem;
  	background-size: 100% 100%;
- 	background-image: url("logo.png")
+  background-image: url("logo.png");
+  transition: background-image 0.5s;
  }
 /*c2*/
 .column2{
@@ -78,7 +79,7 @@ body{
  }
  .column2:hover 
  #text1{
-  background-image: url("title_bh.png")
+  background-image: url("title_bh.png");
  }
 
  #text1{
@@ -88,7 +89,8 @@ body{
   height:21rem;
   width: 27rem;
   background-size: 100% 100%;
-  background-image: url("title.png")
+  background-image: url("title.png");
+  transition: background-image 0.5s;
  }
 /*c3*/
 .column3{
@@ -118,10 +120,10 @@ body{
  .column3:hover{
   background-color:#fda500;
  }
+
  #line3
 {
   border:solid 5px black;
-  
   /*display:none;*/
 }
 #btn3{
@@ -175,7 +177,8 @@ p
   height:16rem;
   width: 17.5rem;
   background-size: 100% 100%;
-  background-image: url("text2.png")
+  background-image: url("text2.png");
+  transition: background-image 0.5s;
  }
  .info{
   height:100%;
@@ -230,4 +233,3 @@ p
   float: left;
  }
 
-</style>
